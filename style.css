@@ -11,6 +11,18 @@ body {
     height: 100%;
 }
 
+.logo {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+
+.search-input {
+    padding: 10px;
+}
+
 .navbar {
     display: block;
     float: right;
@@ -174,4 +186,16 @@ footer {
 .left-menu a:hover,
 .right-menu a:hover {
     text-decoration: underline;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 650) {
+    .search-bar {
+        width: 90%;
+    }
+    
+footer {
+    height: 150px;
+}
 }
